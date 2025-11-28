@@ -1,0 +1,339 @@
+{
+  "users": [
+    {
+      "id": "32b2",
+      "email": "pdas@gmail.com",
+      "password": "omsai",
+      "name": "pdas",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=pdas@gmail.com",
+      "createdAt": "2025-11-24T12:36:38.353Z"
+    },
+    {
+      "id": "8d40",
+      "email": "pda12s@gmail.com",
+      "password": "omsai",
+      "name": "DAS",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=pda12s@gmail.com",
+      "createdAt": "2025-11-24T13:05:50.494Z"
+    },
+    {
+      "id": "f575",
+      "email": "das@gmail.com",
+      "password": "123",
+      "name": "das2",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=das@gmail.com",
+      "createdAt": "2025-11-25T04:42:27.462Z"
+    },
+    {
+      "id": "20db",
+      "email": "gud12@srmap.edu.in",
+      "password": "123",
+      "name": "gud",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=gud12@srmap.edu.in",
+      "createdAt": "2025-11-26T08:07:05.408Z"
+    },
+    {
+      "id": "0051",
+      "email": "das123@gmail.com",
+      "password": "123",
+      "name": "das",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=das123@gmail.com",
+      "createdAt": "2025-11-26T08:33:59.753Z"
+    },
+    {
+      "id": "7ce8",
+      "email": "rajepankaj8@gmail.com",
+      "password": "pppppp",
+      "name": "pp",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=rajepankaj8@gmail.com",
+      "createdAt": "2025-11-28T07:58:01.139Z"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "1763987861104",
+      "title": "Pulihora",
+      "image": "",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [
+        "onion ",
+        "tamaring",
+        "rice"
+      ],
+      "steps": [
+        "cook rice",
+        "add tamarind and lemon"
+      ],
+      "userId": "32b2"
+    },
+    {
+      "id": "1763988071233",
+      "title": "sVSDv",
+      "image": "",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [
+        "Sdf"
+      ],
+      "steps": [
+        "sdvSD"
+      ],
+      "userId": "32b2"
+    },
+    {
+      "id": "1763988483931",
+      "title": "eogjpg",
+      "image": "4lgj4",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [
+        "33r"
+      ],
+      "steps": [],
+      "userId": "32b2"
+    },
+    {
+      "id": "1763988804218",
+      "title": "poeh[rh",
+      "image": "e;ge",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [],
+      "steps": [],
+      "userId": "32b2"
+    },
+    {
+      "id": "1763988989013",
+      "title": "veuvcwoaue",
+      "image": "",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [
+        "inionjuki"
+      ],
+      "steps": [
+        "bjbIQWJNS"
+      ],
+      "userId": "32b2"
+    },
+    {
+      "id": "1763989243213",
+      "title": "BSA",
+      "image": "",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [
+        "BSA"
+      ],
+      "steps": [
+        "BSA"
+      ],
+      "userId": "32b2"
+    },
+    {
+      "id": "1763989646816",
+      "title": "BB",
+      "image": "",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [
+        "HH"
+      ],
+      "steps": [
+        "BB"
+      ],
+      "userId": "8d40"
+    },
+    {
+      "id": "1763989877372",
+      "title": "CFASCF",
+      "image": "",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [
+        "ADCASD"
+      ],
+      "steps": [
+        "ASCEF"
+      ],
+      "userId": "8d40"
+    },
+    {
+      "id": "1763991209323",
+      "title": "PULIPULI",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fyummyindiankitchen.com%2Fpulihora-recipe-andhra-tamarind-rice-recipe-chintapandu-pulihora%2F&psig=AOvVaw2RJIpaJ7bjLv_H5duLW-cd&ust=1764077573807000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPjn_JzzipEDFQAAAAAdAAAAABAE",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [],
+      "steps": [],
+      "userId": "8d40"
+    },
+    {
+      "id": "1763991253815",
+      "title": "JJ",
+      "image": "https://share.google/images/nGaFsJbDphv1GSsj1",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [],
+      "steps": [],
+      "userId": "8d40"
+    },
+    {
+      "id": "1763991293233",
+      "title": "FF",
+      "image": "https://yummyindiankitchen.com/wp-content/uploads/2016/10/tamarind-rice-recipe-pulihora.jpg",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [],
+      "steps": [],
+      "userId": "8d40"
+    },
+    {
+      "id": "1764046200213",
+      "title": "heu",
+      "image": "",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [
+        "beforeedit"
+      ],
+      "steps": [
+        "dsdf"
+      ],
+      "userId": "f575"
+    },
+    {
+      "id": "1764144057766",
+      "title": "check",
+      "image": "",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [
+        "checkb"
+      ],
+      "steps": [
+        "checkb"
+      ],
+      "userId": "f575"
+    },
+    {
+      "id": "1764145224143",
+      "title": "img",
+      "image": "https://www.pexels.com/photo/flat-lay-photography-of-vegetable-salad-on-plate-1640777/",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [],
+      "steps": [],
+      "userId": "20db"
+    },
+    {
+      "id": "1764145395654",
+      "title": "pwrjr",
+      "image": "https://cdn.britannica.com/36/123536-050-95CB0C6E/Variety-fruits-vegetables.jpg?w=300",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [
+        " efoe"
+      ],
+      "steps": [],
+      "userId": "20db"
+    },
+    {
+      "title": "dfgdfqqrr",
+      "image": "fcvx",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "ingredients": [],
+      "steps": [],
+      "userId": "7ce8",
+      "id": 1764324737330
+    }
+  ],
+  "favorites": [
+    {
+      "id": "33af",
+      "userId": "32b2",
+      "recipeId": 1763988071233,
+      "title": "sVSDv",
+      "image": ""
+    },
+    {
+      "id": "2421",
+      "userId": "8d40",
+      "recipeId": 1763989646816,
+      "title": "BB",
+      "image": ""
+    },
+    {
+      "id": "2e93",
+      "userId": "8d40",
+      "recipeId": 1763991293233,
+      "title": "FF",
+      "image": "https://yummyindiankitchen.com/wp-content/uploads/2016/10/tamarind-rice-recipe-pulihora.jpg"
+    },
+    {
+      "id": "06c8",
+      "userId": "f575",
+      "recipeId": "1763989243213",
+      "title": "BSA",
+      "image": ""
+    },
+    {
+      "id": "42fe",
+      "userId": "f575",
+      "recipeId": "1763988989013",
+      "title": "veuvcwoaue",
+      "image": ""
+    },
+    {
+      "id": "d9bb",
+      "userId": "20db",
+      "recipeId": "1763988071233",
+      "title": "sVSDv",
+      "image": ""
+    },
+    {
+      "id": "82ef",
+      "userId": "0051",
+      "recipeId": "1763991293233",
+      "title": "FF",
+      "image": "https://yummyindiankitchen.com/wp-content/uploads/2016/10/tamarind-rice-recipe-pulihora.jpg"
+    },
+    {
+      "id": "00f5",
+      "userId": "0051",
+      "recipeId": "1763987861104",
+      "title": "Pulihora",
+      "image": ""
+    },
+    {
+      "id": "3e64",
+      "userId": "0051",
+      "recipeId": "1763988071233",
+      "title": "sVSDv",
+      "image": ""
+    },
+    {
+      "id": "dbf3",
+      "userId": "0051",
+      "recipeId": "1763988483931",
+      "title": "eogjpg",
+      "image": "4lgj4"
+    },
+    {
+      "id": "a7a7",
+      "userId": "7ce8",
+      "recipeId": "1764145395654",
+      "title": "pwrjr",
+      "image": "https://cdn.britannica.com/36/123536-050-95CB0C6E/Variety-fruits-vegetables.jpg?w=300"
+    },
+    {
+      "id": "7f76",
+      "userId": "7ce8",
+      "recipeId": "1763988483931",
+      "title": "eogjpg",
+      "image": "4lgj4"
+    }
+  ]
+}
