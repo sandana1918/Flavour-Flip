@@ -51,135 +51,6 @@
   ],
   "recipes": [
     {
-      "id": "1763987861104",
-      "title": "Pulihora",
-      "image": "",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [
-        "onion ",
-        "tamaring",
-        "rice"
-      ],
-      "steps": [
-        "cook rice",
-        "add tamarind and lemon"
-      ],
-      "userId": "32b2"
-    },
-    {
-      "id": "1763988071233",
-      "title": "sVSDv",
-      "image": "",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [
-        "Sdf"
-      ],
-      "steps": [
-        "sdvSD"
-      ],
-      "userId": "32b2"
-    },
-    {
-      "id": "1763988483931",
-      "title": "eogjpg",
-      "image": "4lgj4",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [
-        "33r"
-      ],
-      "steps": [],
-      "userId": "32b2"
-    },
-    {
-      "id": "1763988804218",
-      "title": "poeh[rh",
-      "image": "e;ge",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [],
-      "steps": [],
-      "userId": "32b2"
-    },
-    {
-      "id": "1763988989013",
-      "title": "veuvcwoaue",
-      "image": "",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [
-        "inionjuki"
-      ],
-      "steps": [
-        "bjbIQWJNS"
-      ],
-      "userId": "32b2"
-    },
-    {
-      "id": "1763989243213",
-      "title": "BSA",
-      "image": "",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [
-        "BSA"
-      ],
-      "steps": [
-        "BSA"
-      ],
-      "userId": "32b2"
-    },
-    {
-      "id": "1763989646816",
-      "title": "BB",
-      "image": "",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [
-        "HH"
-      ],
-      "steps": [
-        "BB"
-      ],
-      "userId": "8d40"
-    },
-    {
-      "id": "1763989877372",
-      "title": "CFASCF",
-      "image": "",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [
-        "ADCASD"
-      ],
-      "steps": [
-        "ASCEF"
-      ],
-      "userId": "8d40"
-    },
-    {
-      "id": "1763991209323",
-      "title": "PULIPULI",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fyummyindiankitchen.com%2Fpulihora-recipe-andhra-tamarind-rice-recipe-chintapandu-pulihora%2F&psig=AOvVaw2RJIpaJ7bjLv_H5duLW-cd&ust=1764077573807000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPjn_JzzipEDFQAAAAAdAAAAABAE",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [],
-      "steps": [],
-      "userId": "8d40"
-    },
-    {
-      "id": "1763991253815",
-      "title": "JJ",
-      "image": "https://share.google/images/nGaFsJbDphv1GSsj1",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [],
-      "steps": [],
-      "userId": "8d40"
-    },
-    {
       "id": "1763991293233",
       "title": "FF",
       "image": "https://yummyindiankitchen.com/wp-content/uploads/2016/10/tamarind-rice-recipe-pulihora.jpg",
@@ -188,44 +59,6 @@
       "ingredients": [],
       "steps": [],
       "userId": "8d40"
-    },
-    {
-      "id": "1764046200213",
-      "title": "heu",
-      "image": "",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [
-        "beforeedit"
-      ],
-      "steps": [
-        "dsdf"
-      ],
-      "userId": "f575"
-    },
-    {
-      "id": "1764144057766",
-      "title": "check",
-      "image": "",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [
-        "checkb"
-      ],
-      "steps": [
-        "checkb"
-      ],
-      "userId": "f575"
-    },
-    {
-      "id": "1764145224143",
-      "title": "img",
-      "image": "https://www.pexels.com/photo/flat-lay-photography-of-vegetable-salad-on-plate-1640777/",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [],
-      "steps": [],
-      "userId": "20db"
     },
     {
       "id": "1764145395654",
@@ -238,16 +71,6 @@
       ],
       "steps": [],
       "userId": "20db"
-    },
-    {
-      "title": "dfgdfqqrr",
-      "image": "fcvx",
-      "readyInMinutes": 30,
-      "servings": 2,
-      "ingredients": [],
-      "steps": [],
-      "userId": "7ce8",
-      "id": 1764324737330
     }
   ],
   "favorites": [
@@ -294,13 +117,6 @@
       "image": ""
     },
     {
-      "id": "82ef",
-      "userId": "0051",
-      "recipeId": "1763991293233",
-      "title": "FF",
-      "image": "https://yummyindiankitchen.com/wp-content/uploads/2016/10/tamarind-rice-recipe-pulihora.jpg"
-    },
-    {
       "id": "00f5",
       "userId": "0051",
       "recipeId": "1763987861104",
@@ -334,6 +150,13 @@
       "recipeId": "1763988483931",
       "title": "eogjpg",
       "image": "4lgj4"
+    },
+    {
+      "userId": "0051",
+      "recipeId": 782601,
+      "title": "Red Kidney Bean Jambalaya",
+      "image": "https://img.spoonacular.com/recipes/782601-312x231.jpg",
+      "id": "bHDwZR3"
     }
   ]
 }

@@ -22,7 +22,7 @@ const CookingModePage = () => {
         fetchRecipe();
     }, [id]);
 
-    if (!recipe) return <div className="bg-black text-white h-screen flex items-center justify-center">Loading...</div>;
+    if (!recipe) return <div className="bg-earth-50 text-earth-900 h-screen flex items-center justify-center">Loading...</div>;
 
     const steps = recipe.analyzedInstructions[0]?.steps || [];
     const progress = ((currentStep + 1) / steps.length) * 100;
@@ -36,21 +36,21 @@ const CookingModePage = () => {
     };
 
     return (
-        <div className="fixed inset-0 bg-black text-white z-50 flex flex-col">
+        <div className="fixed inset-0 bg-earth-50 text-earth-900 z-50 flex flex-col">
             {completed && <Confetti width={width} height={height} />}
 
             {/* Header */}
             <div className="p-6 flex items-center justify-between">
                 <div className="flex-1">
-                    <div className="h-1 bg-gray-800 rounded-full overflow-hidden">
+                    <div className="h-1 bg-earth-200 rounded-full overflow-hidden">
                         <motion.div
-                            className="h-full bg-green-500"
+                            className="h-full bg-earth-700"
                             initial={{ width: 0 }}
                             animate={{ width: `${progress}%` }}
                         />
                     </div>
                 </div>
-                <button onClick={() => navigate(-1)} className="ml-6 p-2 hover:bg-white/10 rounded-full">
+                <button onClick={() => navigate(-1)} className="ml-6 p-2 hover:bg-earth-200/50 rounded-full transition-colors">
                     <X size={24} />
                 </button>
             </div>
@@ -64,12 +64,12 @@ const CookingModePage = () => {
                             animate={{ scale: 1, opacity: 1 }}
                             className="text-center"
                         >
-                            <div className="w-24 h-24 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
-                                <Check size={48} />
+                            <div className="w-24 h-24 bg-sage-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                                <Check size={48} className="text-white" />
                             </div>
                             <h1 className="text-4xl font-bold mb-4">Bon Appétit!</h1>
-                            <p className="text-gray-400 mb-8">You've completed this recipe.</p>
-                            <button onClick={() => navigate('/discover')} className="px-8 py-3 bg-white text-black rounded-full font-bold">
+                            <p className="text-earth-600 mb-8">You've completed this recipe.</p>
+                            <button onClick={() => navigate('/discover')} className="px-8 py-3 bg-earth-800 text-white rounded-full font-bold hover:bg-earth-700 transition-colors shadow-lg">
                                 Discover More
                             </button>
                         </motion.div>
@@ -81,7 +81,7 @@ const CookingModePage = () => {
                             exit={{ x: -50, opacity: 0 }}
                             className="max-w-2xl text-center"
                         >
-                            <span className="inline-block px-4 py-1 bg-white/10 rounded-full text-sm mb-6">
+                            <span className="inline-block px-4 py-1 bg-earth-200 rounded-full text-sm mb-6 text-earth-800 font-medium">
                                 Step {currentStep + 1} of {steps.length}
                             </span>
                             <h2 className="text-3xl md:text-5xl font-serif font-bold leading-tight mb-8">
@@ -92,7 +92,7 @@ const CookingModePage = () => {
                             {steps[currentStep].ingredients?.length > 0 && (
                                 <div className="flex flex-wrap justify-center gap-3">
                                     {steps[currentStep].ingredients.map(ing => (
-                                        <span key={ing.id} className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300">
+                                        <span key={ing.id} className="px-3 py-1 bg-white border border-earth-300 rounded-full text-sm text-earth-700 shadow-sm">
                                             {ing.name}
                                         </span>
                                     ))}
@@ -109,14 +109,14 @@ const CookingModePage = () => {
                     <button
                         onClick={() => setCurrentStep(prev => Math.max(0, prev - 1))}
                         disabled={currentStep === 0}
-                        className="p-4 rounded-full bg-white/10 hover:bg-white/20 disabled:opacity-30 transition-colors"
+                        className="p-4 rounded-full bg-earth-200 hover:bg-earth-300 disabled:opacity-30 transition-colors shadow-md"
                     >
                         <ChevronLeft size={32} />
                     </button>
 
                     <button
                         onClick={handleNext}
-                        className="px-8 py-4 bg-green-600 hover:bg-green-500 rounded-full font-bold text-lg transition-colors flex items-center gap-2"
+                        className="px-8 py-4 bg-earth-800 hover:bg-earth-700 text-white rounded-full font-bold text-lg transition-colors flex items-center gap-2 shadow-lg"
                     >
                         {currentStep === steps.length - 1 ? 'Finish' : 'Next Step'} <ChevronRight size={24} />
                     </button>

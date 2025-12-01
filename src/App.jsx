@@ -9,6 +9,7 @@ import ProfilePage from './pages/ProfilePage';
 import CookbookPage from './pages/CookbookPage';
 import AddRecipePage from './pages/AddRecipePage';
 import CookingModePage from './pages/CookingModePage';
+import ShoppingListPage from './pages/ShoppingListPage';
 import NotFoundPage from './pages/NotFoundPage';
 import { useAuth } from './context/AuthContext';
 
@@ -39,6 +40,12 @@ const App = () => {
                     <Route path="/cookbook" element={
                         <ProtectedRoute>
                             <CookbookPage />
+                        </ProtectedRoute>
+                    } />
+
+                    <Route path="/shopping-list" element={
+                        <ProtectedRoute>
+                            <ShoppingListPage />
                         </ProtectedRoute>
                     } />
 

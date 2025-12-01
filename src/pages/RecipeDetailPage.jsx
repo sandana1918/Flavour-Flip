@@ -3,6 +3,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Heart, Play, Edit, Trash } from 'lucide-react';
 import FlipBookViewer from '../components/ui/FlipBookViewer';
+import IngredientsPanel from '../components/ui/IngredientsPanel';
 import { getRecipeDetails, localApi, deleteRecipe, getFavorites } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 
@@ -120,6 +121,7 @@ const RecipeDetailPage = () => {
                 animate={{ opacity: 1, y: 0 }}
                 className="relative"
             >
+                <IngredientsPanel recipe={recipe} />
                 <FlipBookViewer recipe={recipe} />
             </motion.div>
         </div>

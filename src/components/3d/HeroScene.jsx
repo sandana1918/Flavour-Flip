@@ -30,20 +30,8 @@ const FloatingPot = ({ hovered, ...props }) => {
         <cylinderGeometry args={[1.5, 1.2, 2, 32]} />
         <meshStandardMaterial color="#a18072" roughness={0.3} metalness={0.4} />
       </mesh>
-      {/* Pot Rim */}
-      <mesh position={[0, 1, 0]}>
-        <torusGeometry args={[1.5, 0.1, 16, 32]} />
-        <meshStandardMaterial color="#846358" roughness={0.3} metalness={0.6} />
-      </mesh>
-      {/* Handles */}
-      <mesh position={[1.6, 0.5, 0]} rotation={[0, 0, Math.PI / 2]}>
-        <torusGeometry args={[0.4, 0.1, 16, 16]} />
-        <meshStandardMaterial color="#846358" />
-      </mesh>
-      <mesh position={[-1.6, 0.5, 0]} rotation={[0, 0, Math.PI / 2]}>
-        <torusGeometry args={[0.4, 0.1, 16, 16]} />
-        <meshStandardMaterial color="#846358" />
-      </mesh>
+
+
       {/* Lid (slightly floating) */}
       <group ref={lidRef} position={[0, 1.2, 0]} rotation={[0.1, 0, 0.1]}>
         <mesh>

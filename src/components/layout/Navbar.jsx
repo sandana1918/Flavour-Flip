@@ -1,19 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChefHat, Search, BookOpen, User, Menu, X, Sun, Moon, PlusCircle } from 'lucide-react';
+import { ChefHat, Search, BookOpen, ShoppingCart, User, Menu, X, Sun, Moon, PlusCircle } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 import { useTheme } from '../../context/ThemeContext';
+import { getUncheckedCount } from '../../services/shoppingListService';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [shoppingCount, setShoppingCount] = useState(0);
   const { user, logout } = useAuth();
   const { isDark, toggleTheme } = useTheme();
   const location = useLocation();
 
+  useEffect(() => {
+    // Update shopping count when location changes
+    setShoppingCount(getUncheckedCount());
+  }, [location]);
+
   const navLinks = [
     { name: 'Discover', path: '/discover', icon: Search },
     { name: 'My Cookbook', path: '/cookbook', icon: BookOpen },
+    { name: 'Shopping List', path: '/shopping-list', icon: ShoppingCart, badge: shoppingCount },
   ];
 
   return (
@@ -40,13 +48,18 @@ const Navbar = () => {
             <Link
               key={link.name}
               to={link.path}
-              className={`flex items-center gap-2 text-sm font-medium transition-colors ${location.pathname === link.path
+              className={`flex items-center gap-2 text-sm font-medium transition-colors relative ${location.pathname === link.path
                 ? 'text-earth-800 dark:text-earth-300'
                 : 'text-earth-600 dark:text-earth-400 hover:text-earth-800 dark:hover:text-earth-200'
                 }`}
             >
               <link.icon size={18} />
               {link.name}
+              {link.badge > 0 && (
+                <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-bold">
+                  {link.badge > 99 ? '99+' : link.badge}
+                </span>
+              )}
             </Link>
           ))}
         </div>
@@ -117,10 +130,15 @@ const Navbar = () => {
                 key={link.name}
                 to={link.path}
                 onClick={() => setIsOpen(false)}
-                className="flex items-center gap-3 text-earth-800 dark:text-earth-200 py-2"
+                className="flex items-center gap-3 text-earth-800 dark:text-earth-200 py-2 relative"
               >
                 <link.icon size={20} />
                 {link.name}
+                {link.badge > 0 && (
+                  <span className="ml-auto bg-red-500 text-white text-xs rounded-full px-2 py-0.5 font-bold">
+                    {link.badge > 99 ? '99+' : link.badge}
+                  </span>
+                )}
               </Link>
             ))}
             <div className="h-px bg-earth-200 dark:bg-earth-700 my-2" />
