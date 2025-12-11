@@ -2,6 +2,8 @@
 
 A modern, interactive recipe discovery and cooking companion application built with React, featuring a unique flip-book style recipe viewer and comprehensive cooking features.
 
+Project Report : 
+https://drive.google.com/file/d/1twPcVZjtJHr-nPKZn4sVK4eBezHqtpB7/view?usp=sharing
 
 Project Demo Link:
 https://drive.google.com/file/d/1cNSbnDJrn_HtN2jmopbmN4mq5ah5blmV/view
