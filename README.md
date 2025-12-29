@@ -267,10 +267,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👤 Author
+## Team
 
 **pankajydv07**
 - GitHub: [@pankajydv07](https://github.com/pankajydv07)
+**sandana1918**
+- GitHub: [@sandana1918](https://github.com/sandana1918)
+
 
 ## 🙏 Acknowledgments
 
